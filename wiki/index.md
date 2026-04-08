@@ -9,7 +9,7 @@ tags:
 
 # Echo Wiki Index
 
-> Total pages: 32 | Sources ingested: 16 | Last updated: 2026-04-08
+> Total pages: 33 | Sources ingested: 16 | Last updated: 2026-04-08
 
 ## Sources
 
@@ -59,4 +59,5 @@ tags:
 
 ## Synthesis
 
+- [[优胜美地自驾路线与景点综合]] — 入园路线、Valley 单行线景点、1–3 日动线与实操提示（6 xhs sources）
 - [[Harness engineering：定义、原则与实践清单]] — 原则 checklist + @GenAI_is_real 元话语提醒

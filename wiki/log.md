@@ -12,6 +12,12 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] synthesis | 优胜美地自驾路线与景点综合
+
+- 新建: `wiki/synthesis/yosemite-routes-and-highlights.md`（[[优胜美地自驾路线与景点综合]]）
+- 综合 6 篇小红书源：入园路线、Valley 单行线景点顺序、Valley 外区域、1–3 日动线、实操提示
+- 更新: [[Yosemite National Park]]（反向链接）、`wiki/index.md`（+1 synthesis）、`wiki/log.md`
+
 ## [2026-04-08] update | comparison：Harness 对照页「日常可抄作业」
 
 - 更新 [[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]]：总结下增加 8 条日常项目手段 + 括号内概念锚点
