@@ -12,6 +12,47 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] update | comparison：Harness 对照页「日常可抄作业」
+
+- 更新 [[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]]：总结下增加 8 条日常项目手段 + 括号内概念锚点
+
+## [2026-04-08] comparison | Harness：OpenAI / Anthropic / LangChain / Fowler
+
+- 新建: `wiki/comparisons/harness-openai-anthropic-langchain-fowler.md`（[[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]]）
+- 更新: [[Harness engineering（代理脚手架）]]、[[Harness engineering：定义、原则与实践清单]]、`wiki/index.md`、`wiki/log.md`
+
+## [2026-04-08] ingest | Web：LangChain deep agents harness（Terminal Bench）
+
+- 源: `raw/web/langchain-deep-agents-harness-engineering/article.md`
+- 新建 source-summary: `wiki/sources/web-langchain-deep-agents-harness-engineering.md`
+- 新建 entity: [[LangChain]]
+- 更新 concept: [[Harness engineering（代理脚手架）]]；synthesis: [[Harness engineering：定义、原则与实践清单]]（一手来源列表改为 wikilink）
+- 更新 entity: [[OpenAI]]
+- 更新: `wiki/index.md`、`wiki/log.md`
+- 矛盾标注: 无
+
+## [2026-04-08] update | synthesis：补 LangChain 原则与局限
+
+- 更新 [[Harness engineering：定义、原则与实践清单]]：`sources` 增加 `raw/web/langchain-deep-agents-harness-engineering/`；新增原则 9–13（trace 外环、退出前自检、环境注入、反死循环、推理预算）；实践表与局限（未来形态 gap）微调
+
+## [2026-04-08] ingest | X：@GenAI_is_real harness 批评 / how-to-sglang
+
+- 源: `raw/web/x-genai-is-real-harness-engineering-critique/article.md`
+- 新建 source-summary: `wiki/sources/web-x-genai-is-real-harness-engineering-critique.md`
+- 新建 entity: [[Chayenne Zhao]]
+- 更新 concept: [[Harness engineering（代理脚手架）]]；synthesis: [[Harness engineering：定义、原则与实践清单]]
+- 更新 entity: [[OpenAI]]、[[Anthropic]]
+- 更新: `wiki/index.md`、`wiki/log.md`
+- 矛盾标注: 无（话语层争议，非事实互斥）
+
+## [2026-04-08] raw | X 帖归档（@GenAI_is_real — harness engineering 命名批评 / how-to-sglang）
+
+- 落盘 `raw/web/x-genai-is-real-harness-engineering-critique/article.md` + `assets/tweet-image-1.jpg` — [原帖](https://x.com/GenAI_is_real/status/2036266930290696599)（经已登录浏览器 DevTools 快照抓取正文）
+
+## [2026-04-08] raw | Web 剪藏（LangChain — deep agents harness）
+
+- 落盘 `raw/web/langchain-deep-agents-harness-engineering/article.md` — [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/)（配图 5 张于 `assets/`）
+
 ## [2026-04-08] update | Schema：Query 写回、Lint 节奏、raw 边界
 
 - 更新 **AGENTS.md**：元理念（链 Karpathy gist）、raw 层边界、Query 写回闭环（强制）、Lint 节奏

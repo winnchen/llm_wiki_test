@@ -9,7 +9,7 @@ tags:
 
 # Echo Wiki Index
 
-> Total pages: 27 | Sources ingested: 14 | Last updated: 2026-04-08
+> Total pages: 32 | Sources ingested: 16 | Last updated: 2026-04-08
 
 ## Sources
 
@@ -32,6 +32,8 @@ tags:
 - [[Web｜OpenAI：Harness engineering（Codex）]] — 仓库即系统、分层与可观测性（1 raw + assets）
 - [[Web｜Anthropic：Harness design for long-running apps]] — 生成器–评估器与三代理全栈 harness（1 raw + assets）
 - [[Web｜Mitchell Hashimoto：My AI adoption journey]] — 个人采用六步与 harness 工程化（1 raw）
+- [[X｜@GenAI_is_real：对 harness engineering 的批评与 how-to-sglang 经验]] — 命名/元话语批评 + how-to-sglang 多代理（1 raw + 图）
+- [[Web｜LangChain：Improving Deep Agents with harness engineering]] — Terminal Bench、trace 外环、middleware 与自证闭环（1 raw + assets）
 
 ## Entities
 
@@ -41,18 +43,20 @@ tags:
 - [[OpenAI]] — Codex / agent-first 工程公开叙述（1 source）
 - [[Anthropic]] — 长时程 harness、Labs 实验（1 source）
 - [[Mitchell Hashimoto]] — 个人 AI 采用与工具流（1 source）
+- [[Chayenne Zhao]] — SGLang / how-to-sglang；harness 术语批评长帖（1 source）
+- [[LangChain]] — LangSmith / deepagents；Terminal Bench harness 博文（1 source）
 
 ## Concepts
 
 - [[露营装备（新手）]] — 睡眠系统、炉具、照明与首次策略（4 sources）
 - [[美国国家公园露营与营地]] — 预约路径、营地选取、游园与 Yosemite 交叉（4 sources）
-- [[Harness engineering（代理脚手架）]] — 编码代理的外层控制：规则、工具、测试与多代理编排（3 web sources）；参见合成篇 [[Harness engineering：定义、原则与实践清单]]
+- [[Harness engineering（代理脚手架）]] — 编码代理的外层控制；含 Fowler/OpenAI/Anthropic/LangChain 与 X 元话语对照；参见 [[Harness engineering：定义、原则与实践清单]]
 - [[个人 AI 采用与工作流]] — 阶段化采用与 `AGENTS.md`/工具 harness（1 web source）
 
 ## Comparisons
 
-_尚无对比分析页。_
+- [[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]] — 场景、抓手、例子并排；附社区元话语对照
 
 ## Synthesis
 
-- [[Harness engineering：定义、原则与实践清单]] — 基于 Fowler / OpenAI / Anthropic / Mitchell 四篇 raw 的定义、原则与落地 checklist
+- [[Harness engineering：定义、原则与实践清单]] — 原则 checklist + @GenAI_is_real 元话语提醒
