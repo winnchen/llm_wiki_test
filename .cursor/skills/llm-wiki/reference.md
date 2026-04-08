@@ -91,8 +91,19 @@ aliases:                # optional — alternative names for this page
   - alias1
 status: string          # optional — draft | review | stable
 confidence: string      # optional — low | medium | high
+density: string         # optional (source-summary) — high | medium | low
 ---
 ```
+
+### `density` field (source-summary only)
+
+Assigned during ingest Delta analysis. Guides summary depth:
+
+| Value | Meaning | Summary style |
+|-------|---------|---------------|
+| `high` | Information-dense; many new claims, data, or actionable items | Multi-section, detailed; may spawn new concept/entity pages |
+| `medium` | Moderate new info; some overlap with existing wiki | Standard template (overview + key points + entities/concepts) |
+| `low` | Mostly reinforcing or narrow scope | Short; consider folding into an existing concept page instead of standalone |
 
 ## Cross-Reference Conventions
 
@@ -114,6 +125,57 @@ confidence: string      # optional — low | medium | high
 - Entities: use most common name
 - Concepts: use standard terminology
 - Keep filenames under 60 characters
+
+## Domain-Aware Analysis Templates
+
+During ingest step 2, select the template that best matches the source. Multiple may apply (e.g. a blog post with embedded data).
+
+### Tech / AI article
+
+| Dimension | What to extract |
+|-----------|----------------|
+| Core thesis | The author's main claim in 1–2 sentences |
+| Methodology | How they reached the claim (experiment, case study, reasoning) |
+| Data & evidence | Benchmarks, metrics, examples, code snippets |
+| Limitations | Author-stated caveats, unstated assumptions you notice |
+| Delta vs wiki | What this adds beyond existing concept/entity pages |
+
+### Experience post (XHS / travel / life)
+
+| Dimension | What to extract |
+|-----------|----------------|
+| Actionable info | Timelines, prices, coordinates, brand names, step-by-step |
+| Subjective vs factual | Label opinions clearly; don't present taste as fact |
+| Conditions & caveats | Season, weather, personal fitness level, date of visit |
+| Delta vs wiki | New routes, contradicting tips, updated prices vs existing guides |
+
+### Academic paper
+
+| Dimension | What to extract |
+|-----------|----------------|
+| Hypothesis | What the paper sets out to prove |
+| Method | Experimental setup, dataset, model architecture |
+| Results | Key numbers, ablation studies, failure modes |
+| Author limitations | Section "Limitations" or equivalent |
+| Significance | Why it matters for wiki concepts |
+
+### Opinion / social media
+
+| Dimension | What to extract |
+|-----------|----------------|
+| Stance | Author's position in 1 sentence |
+| Arguments | Supporting evidence or reasoning |
+| Potential bias | Affiliation, incentive, selection bias |
+| Counter-mapping | Which existing wiki pages argue the opposite |
+
+### Data / tabular
+
+| Dimension | What to extract |
+|-----------|----------------|
+| Key statistics | Mean, median, range, outliers |
+| Distribution | Shape, skew, notable clusters |
+| Comparability | Can this be compared with data already in the wiki? |
+| Freshness | Date of collection; flag if likely stale |
 
 ## Operational cadence（与 Karpathy LLM Wiki 对齐）
 

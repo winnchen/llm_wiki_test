@@ -52,7 +52,9 @@ When starting a new wiki project:
 
 ## Workflow 2: Ingest
 
-When the user adds a source to `raw/` and asks to ingest it:
+When the user adds a source to `raw/` and asks to ingest it. Supports two modes: **single** (one source) and **batch** (multiple related sources).
+
+### Single-source ingest
 
 1. **Detect format** and read the source:
    - `raw/web/<slug>/article.md`: read directly; use YAML `source_url` / `title` in frontmatter when present
@@ -61,20 +63,58 @@ When the user adds a source to `raw/` and asks to ingest it:
    - `.png`, `.jpg`, `.webp`: analyze visually, generate description
    - `.csv`, `.json`, `.xlsx`: read structure, compute key statistics
    - `.mp3`, `.mp4`: remind user to transcribe first (e.g. Whisper), then ingest the transcript
-2. **Discuss** key takeaways with the user — what matters, what to emphasize
-3. **Create source summary** in `wiki/sources/` using [templates/source-summary.md](templates/source-summary.md)
-4. **Update or create entity pages** in `wiki/entities/` using [templates/entity-page.md](templates/entity-page.md)
-5. **Update or create concept pages** in `wiki/concepts/` using [templates/concept-page.md](templates/concept-page.md)
-6. **Flag contradictions** — if new info contradicts existing wiki claims, note them explicitly on both pages
-7. **Update `wiki/index.md`** — add new pages, update summaries of modified pages
-8. **Append to `wiki/log.md`**:
+
+2. **Domain-aware analysis** — select analysis dimensions by source type (see `AGENTS.md` for the full matrix):
+   - *Tech / AI article*: thesis, methodology, data/experiments, limitations, delta vs wiki
+   - *Experience post (XHS / travel / life)*: actionable info (timeline, price, coords, brands), subjective vs factual, delta vs existing guides
+   - *Paper*: hypothesis, method, results, ablations, author-stated limitations
+   - *Opinion / social media*: stance, arguments, bias, mapping to opposing views
+   - *Data / tabular*: key stats, distributions, comparability with existing data
+
+3. **Delta analysis** (mandatory — compare against existing wiki):
+   1. Read `wiki/index.md` → identify all potentially related entity / concept / synthesis pages
+   2. Read those pages
+   3. Classify each piece of information from the new source:
+      - **New**: not in wiki at all → write it
+      - **Reinforcing**: supports existing claims with extra detail/data → merge as evidence
+      - **Contradicting**: conflicts with wiki → flag with `> [!contradiction]` on both pages
+      - **Already covered**: wiki has it, no delta → skip (don't repeat)
+   4. Set `density: high | medium | low` in the source-summary frontmatter
+
+4. **Discuss with user** — focus on deltas and contradictions only; skip already-covered info. If the source is unambiguous and contradiction-free, a one-paragraph confirmation suffices.
+
+5. **Write wiki pages**:
+   - **Source summary** in `wiki/sources/` using [templates/source-summary.md](templates/source-summary.md). High-density sources get longer, multi-section summaries; low-density sources may be folded into an existing concept page instead of a standalone summary.
+   - **Entity pages** in `wiki/entities/` using [templates/entity-page.md](templates/entity-page.md) — only the delta.
+   - **Concept pages** in `wiki/concepts/` using [templates/concept-page.md](templates/concept-page.md) — only the delta.
+
+6. **Synthesis trigger check** — at end of ingest, evaluate whether to proactively suggest a new synthesis or comparison page. Trigger conditions (any one suffices):
+   - An entity/concept page now has **≥ 3 sources**
+   - This ingest flagged **≥ 2 contradictions**
+   - This ingest caused cross-updates to **≥ 2 concept pages**
+   If triggered → propose a specific synthesis/comparison target to the user.
+
+7. **Local lint** — run `wiki_lint.py` (or manual check) on **only the pages created/modified in this ingest**. Auto-fix trivial issues (missing outbound link, incomplete frontmatter).
+
+8. **Update `wiki/index.md`** and **append to `wiki/log.md`**:
    ```
    ## [YYYY-MM-DD] ingest | Source Title
    - Source: `raw/filename.ext`
+   - Delta: N new / N reinforcing / N contradicting / N skipped
    - Pages created: list
    - Pages updated: list
    - Contradictions flagged: list or "none"
+   - Synthesis trigger: yes (suggested: ...) | no
    ```
+
+### Batch ingest
+
+When ingesting multiple related sources at once:
+
+1. **Read all sources first** — do not write wiki until all are read.
+2. **Cross-source delta analysis** — identify overlap, contradictions, and complementary info *between* the sources, then compare the merged picture against the existing wiki.
+3. **Unified wiki write** — write pages once with the full picture, avoiding stale references to earlier-ingested pages.
+4. Steps 4–8 follow single-source mode (discuss → write → synthesis trigger → local lint → index/log).
 
 **Important:** Use `[[wikilink]]` syntax for all cross-references between wiki pages. Every new page must link to at least one existing page, and at least one existing page must link back.
 

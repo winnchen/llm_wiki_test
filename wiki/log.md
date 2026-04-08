@@ -12,6 +12,12 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] update | schema：Ingest 流程升级（v2）
+
+- 升级 `AGENTS.md`：Ingest 章节重写为单篇/批量双模式；新增领域感知分析、Delta 对照（强制）、synthesis trigger check、局部 lint 四个步骤
+- 升级 `.cursor/skills/llm-wiki/SKILL.md`：Workflow 2 对齐 AGENTS.md 变更；增加 domain-aware analysis 维度矩阵、Delta 分类（new/reinforcing/contradicting/covered）、density 字段、batch ingest 流程、log 格式增加 delta 统计与 synthesis trigger 字段
+- 升级 `.cursor/skills/llm-wiki/reference.md`：新增 Domain-Aware Analysis Templates（5 类源 × 4–5 维度）；Frontmatter Schema 增加 `density: high | medium | low` 字段说明
+
 ## [2026-04-08] update | concept：露营装备（新手）增加采购清单
 
 - 更新 [[露营装备（新手）]]：原共识列表扩写为分类装备表（睡眠/安全照明/炊事/其他/Solo hiking）+ 新手策略 5 条；增加 [[优胜美地自驾路线与景点综合]] 反向链接
