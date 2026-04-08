@@ -12,17 +12,24 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] ingest | Web：harness 工程与个人 AI 采用（4 raw）
+
+- 源: `raw/web/harness-engineering-martinfowler/article.md`、`harness-engineering-openai/article.md`、`harness-design-long-running-apps/article.md`、`my-ai-adoption-journey/article.md`
+- 新建 source-summary: `wiki/sources/web-martinfowler-harness-engineering-coding-agents.md`、`web-openai-harness-engineering-codex.md`、`web-anthropic-harness-design-long-running-apps.md`、`web-mitchellh-my-ai-adoption-journey.md`
+- 新建 entity: [[Martin Fowler]]、[[OpenAI]]、[[Anthropic]]、[[Mitchell Hashimoto]]
+- 新建 concept: [[Harness engineering（代理脚手架）]]、[[个人 AI 采用与工作流]]
+- 更新: `wiki/index.md`、`wiki/log.md`
+- 矛盾标注: 无（各文视角互补）
+
 ## [2026-04-08] raw | Web 剪藏（Martin Fowler — harness）
 
 - 落盘 `raw/web/harness-engineering-martinfowler/article.md` — [Martin Fowler — Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html)
-- 尚未 wiki ingest
 
 ## [2026-04-08] raw | Web 剪藏（agent harness 主题）
 
 - 落盘 `raw/web/harness-design-long-running-apps/article.md` — [Anthropic — Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
 - 落盘 `raw/web/harness-engineering-openai/article.md` — [OpenAI — Harness engineering (Codex)](https://openai.com/index/harness-engineering/)
 - 落盘 `raw/web/my-ai-adoption-journey/article.md` — [Mitchell Hashimoto — My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey)
-- 尚未 wiki ingest
 
 ## [2026-04-08] ingest | 小红书第二批（5 篇 Yosemite / 营地预约）
 
