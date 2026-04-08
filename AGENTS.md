@@ -13,8 +13,8 @@
 
 ```
 raw/                  # 原始资料——不可变，人工策展
-  assets/             # 下载的图片和媒体文件
-  xiaohongshu/        # 小红书笔记归档（由 xhs-fetch-to-raw skill 内置脚本写入）
+  assets/             # 全局附件（剪藏/手工下载的跨来源图片与媒体，非某一篇独占）
+  xiaohongshu/        # 小红书笔记归档（xhs-fetch-to-raw）；每篇子目录内另有 assets/ 存该帖图片/视频
 wiki/                 # LLM 维护的 wiki——结构化 markdown
   index.md            # 内容目录
   log.md              # 操作日志（时间线）

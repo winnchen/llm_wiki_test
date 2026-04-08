@@ -18,8 +18,9 @@ analysis, and asks the right questions.
 ```
 project-root/
 ├── raw/                  # Immutable source documents (human-curated)
-│   ├── assets/           # Downloaded images and media
-│   └── ...               # articles, papers, data files
+│   ├── assets/           # Shared attachments (clips, cross-source media)
+│   ├── xiaohongshu/      # Optional: XHS archives (xhs-fetch-to-raw); each note folder has its own assets/
+│   └── ...               # Other topic folders, papers, data files
 ├── wiki/                 # LLM-maintained markdown wiki
 │   ├── index.md          # Content catalog with links and summaries
 │   ├── log.md            # Chronological operation log
@@ -42,7 +43,7 @@ When starting a new wiki project:
 
 1. Read the schema template from [templates/schema-template.md](templates/schema-template.md)
 2. Ask the user about domain, scope, and preferences
-3. Create directory structure: `raw/`, `raw/assets/`, `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/comparisons/`, `wiki/synthesis/`
+3. Create directory structure per `AGENTS.md`: at minimum `raw/`, `raw/assets/`, `wiki/sources/`, …; add domain folders (e.g. `raw/xiaohongshu/` for 小红书) when applicable
 4. Generate `AGENTS.md` from the template, customized for the domain
 5. Generate `wiki/index.md` from [templates/index-template.md](templates/index-template.md)
 6. Generate `wiki/log.md` from [templates/log-template.md](templates/log-template.md)

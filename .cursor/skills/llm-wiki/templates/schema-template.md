@@ -12,7 +12,8 @@ This file governs how the LLM maintains the wiki. Co-evolve it over time.
 
 ```
 raw/                  # Source documents — immutable, human-curated
-  assets/             # Downloaded images and media
+  assets/             # Shared attachments (not tied to a single ingested file)
+  xiaohongshu/        # Optional: e.g. 小红书 mirrors; each post dir may contain assets/
 wiki/                 # LLM-maintained wiki — structured markdown
   index.md            # Content catalog
   log.md              # Chronological operation log

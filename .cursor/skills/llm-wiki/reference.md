@@ -101,6 +101,7 @@ confidence: string      # optional — low | medium | high
 | `[[Page Title]]` | Link to another wiki page |
 | `[[Page Title\|display text]]` | Link with custom display text |
 | `> [!source] raw/filename.ext` | Cite a raw source file |
+| `> [!source] raw/xiaohongshu/.../note.md` | Cite a nested raw file (e.g. archived 小红书) |
 | `> [!contradiction]` | Flag a conflict between sources |
 | `> [!gap]` | Mark a known knowledge gap |
 | `> [!stale]` | Mark information that may be outdated |
