@@ -12,6 +12,17 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] update | Schema：Query 写回、Lint 节奏、raw 边界
+
+- 更新 **AGENTS.md**：元理念（链 Karpathy gist）、raw 层边界、Query 写回闭环（强制）、Lint 节奏
+- 更新 **`.cursor/skills/llm-wiki/`**（`SKILL.md`、`reference.md`）与上述一致
+
+## [2026-04-08] synthesis | Harness engineering：定义、原则与实践清单
+
+- 新建: `wiki/synthesis/harness-engineering-principles-and-practices.md`（[[Harness engineering：定义、原则与实践清单]]）
+- 依据: 四篇 `raw/web/` harness / 采用长文 + 概念页 [[Harness engineering（代理脚手架）]]
+- 更新: `wiki/concepts/harness-engineering-agent-harness.md`（反向链接）、`wiki/index.md`、`wiki/log.md`
+
 ## [2026-04-08] ingest | Web：harness 工程与个人 AI 采用（4 raw）
 
 - 源: `raw/web/harness-engineering-martinfowler/article.md`、`harness-engineering-openai/article.md`、`harness-design-long-running-apps/article.md`、`my-ai-adoption-journey/article.md`

@@ -85,14 +85,14 @@ When the user asks a question against the wiki:
 1. **Read `wiki/index.md`** to identify relevant pages
 2. If the wiki has >100 pages, use `scripts/wiki_search.py` for targeted search
 3. **Read relevant pages** and synthesize an answer with `[[wikilink]]` citations
-4. **Ask the user**: "Should I file this answer as a wiki page?"
-   - If yes → create a page in `wiki/synthesis/` or `wiki/comparisons/`
-   - Update index and log
+4. **Write-back loop (required for substantive answers):** If the answer is more than a one-liner (e.g. synthesized principles, checklists, comparisons, or reusable conclusions), you **must** end the same turn by **proactively asking** whether to persist it into the wiki, and **suggest a target**: extend an existing `wiki/concepts/` page, add `wiki/synthesis/` or `wiki/comparisons/`, etc. If the user agrees → create/update pages, then refresh `wiki/index.md` and append `wiki/log.md`.
 5. **Suggest follow-ups**: related questions, sources to seek, gaps in the wiki
+
+**Rationale:** Matches the “LLM maintains compounding markdown” idea ([Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f))—queries should default toward archival, not only chat.
 
 ## Workflow 4: Lint
 
-When the user asks to health-check the wiki, or periodically after every ~10 ingests:
+When the user asks to health-check the wiki, or on a **cadence of ~every 10 ingests** (proactively remind or run):
 
 1. Run `python scripts/wiki_lint.py wiki/` or perform manual checks:
    - **Orphan pages**: no inbound links from other wiki pages
@@ -103,7 +103,7 @@ When the user asks to health-check the wiki, or periodically after every ~10 ing
    - **Thin pages**: fewer than 3 sentences of content
 2. Present findings as a checklist to the user
 3. Fix issues with user approval
-4. Log the lint pass in `wiki/log.md`
+4. **Always** log the lint pass in `wiki/log.md` (even if clean), so cadence is traceable
 
 ## Page Conventions
 

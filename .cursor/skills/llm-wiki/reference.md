@@ -115,6 +115,12 @@ confidence: string      # optional — low | medium | high
 - Concepts: use standard terminology
 - Keep filenames under 60 characters
 
+## Operational cadence（与 Karpathy LLM Wiki 对齐）
+
+- **Query → write-back**: 非平凡回答的**同一轮**末尾应主动提议写入 `wiki/`（并建议 synthesis / concept / comparison / 扩写），见仓库 **AGENTS.md**「Query」与 [SKILL.md Workflow 3](SKILL.md)。
+- **Lint**: 用户触发时必跑；另建议约每 **10 次 ingest** 提醒或执行一次 `wiki_lint.py`，并在 `wiki/log.md` 留一条（即使无问题），便于追溯。
+- **raw**: Ingest 时默认只读；补图等剪藏完善由人发起、Agent 执行，见 **AGENTS.md**「raw 层边界」。
+
 ## Lint Rules
 
 | ID | Rule | Severity |

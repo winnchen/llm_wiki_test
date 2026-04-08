@@ -9,7 +9,7 @@ tags:
 
 # Echo Wiki Index
 
-> Total pages: 26 | Sources ingested: 14 | Last updated: 2026-04-08
+> Total pages: 27 | Sources ingested: 14 | Last updated: 2026-04-08
 
 ## Sources
 
@@ -46,7 +46,7 @@ tags:
 
 - [[露营装备（新手）]] — 睡眠系统、炉具、照明与首次策略（4 sources）
 - [[美国国家公园露营与营地]] — 预约路径、营地选取、游园与 Yosemite 交叉（4 sources）
-- [[Harness engineering（代理脚手架）]] — 编码代理的外层控制：规则、工具、测试与多代理编排（3 web sources）
+- [[Harness engineering（代理脚手架）]] — 编码代理的外层控制：规则、工具、测试与多代理编排（3 web sources）；参见合成篇 [[Harness engineering：定义、原则与实践清单]]
 - [[个人 AI 采用与工作流]] — 阶段化采用与 `AGENTS.md`/工具 harness（1 web source）
 
 ## Comparisons
@@ -55,4 +55,4 @@ _尚无对比分析页。_
 
 ## Synthesis
 
-_尚无综合分析页。_
+- [[Harness engineering：定义、原则与实践清单]] — 基于 Fowler / OpenAI / Anthropic / Mitchell 四篇 raw 的定义、原则与落地 checklist
