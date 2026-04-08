@@ -5,6 +5,11 @@ created: 2026-04-08
 updated: 2026-04-08
 sources:
   - xiaohongshu/699d3bd5000000000a030272_Yosemite-第一次游玩超轻松路线/note.md
+  - xiaohongshu/68f5a72b000000000302dbd5_Yosemite-Valley-风景点-停车位置/note.md
+  - xiaohongshu/69ad14d2000000002202f55d_优胜美地一日游攻略/note.md
+  - xiaohongshu/6780f10f0000000018013263_Yosemite优胜美地-三天两夜攻略-休闲版/note.md
+  - xiaohongshu/6792608c000000001800af37_美国国家公园露营地预定特别篇/note.md
+  - xiaohongshu/684f665f000000002002b578_优胜美地最简攻略/note.md
 tags:
   - travel
 aliases:
@@ -15,22 +20,28 @@ aliases:
 
 ## 概述
 
-Yosemite National Park（优胜美地国家公园）位于美国加州 Sierra Nevada，以花岗岩峭壁、瀑布与 Yosemite Valley 等景观闻名。在本 wiki 中首次由小红书行程笔记覆盖**冬季/火瀑布季**两日轻松游与 Valley 动线经验。行程侧重首次到访、少徒步、以 Valley 单行线串联观景点；住宿与入园排队受季节活动（如火瀑布）影响较大。后续若补充其他季节或长线 trail，应另建来源页并在本页「资料中的出现」中追加。
+Yosemite National Park（优胜美地国家公园）位于美国加州 Sierra Nevada，以花岗岩峭壁、瀑布与 Yosemite Valley 等景观闻名。本 wiki 当前资料以**小红书行程与实操笔记**为主：涵盖冬季/火瀑布季两日轻松游、**Valley 单行线与停车点位**、**Oakhurst 出发一日游**、**三天两夜休闲环线**、**2–3 日最简动线（含 shuttle / Mist Trail / Glacier Point 方向）**，以及 **Recreation.gov + NPS 营地预约**流程中的 Yosemite 示例。门票、封路、雪链与许可以 **NPS 官网**为准。
 
 ## 关键信息
 
 | 维度 | 本库资料中的表述 |
 |------|------------------|
-| 首次行程参考 | 湾区往返、火瀑布、Valley 单行线打卡、Oakhurst 住宿 |
-| 行前准备 | 查官网天气与道路封闭；可看长视频了解景点背景 |
-| 住宿注意 | 搜索「Yosemite」可能订到山下远镇，需核对车程 |
-
-本实体页目前仅反映单次冬季相关行程笔记。门票与道路规则以 NPS 官网为准。若计划多日露营，请结合 [[美国国家公园露营与营地]] 中的营地预约与设施维度另行规划。
+| Valley 交通 | 单行线、易绕圈；按景点顺序规划停车（专文） |
+| 住宿 | 园外 Oakhurst / Yosemite View Lodge；园内 lodge/营地需抢；勿混淆地名与车程 |
+| 园内移动 | Shuttle 紫线/绿线差异、排队高峰；部分景点宜 shuttle |
+| 经典动线 | Tunnel View、Bridalveil、Lower Yosemite Falls、Valley View、Cook’s Meadow、Mirror Lake 等组合因行程天数而异 |
+| 徒步分级 | Mist Trail 湿滑与体力；Upper Yosemite Fall / Taft & Glacier Point 需单独排期并查封路 |
 
 ## 资料中的出现
 
-- [[小红书｜Yosemite 首次轻松两日游]] — 两日游动线、入园排队与住宿提示
+- [[小红书｜Yosemite 首次轻松两日游]] — 火瀑布季两日、入园排队与住宿关键词陷阱
+- [[小红书｜Yosemite Valley 风景点与停车]] — Valley 各景点停车点与坐标整理
+- [[小红书｜优胜美地一日游攻略]] — 旧金山/Oakhurst 出发一日打卡
+- [[小红书｜优胜美地三天两夜攻略（休闲版）]] — 环线节奏与多日轻徒步
+- [[小红书｜优胜美地最简攻略（2–3 日）]] — shuttle 坑、Mist Trail、Glacier Point 日落组合
+- [[小红书｜美国国家公园露营地预定实操]] — NPS→Recreation.gov 流程中的 Yosemite 示例
 
 ## 相关
 
-- [[美国国家公园露营与营地]] — 营地预约与选取（与 Valley 游览互补）
+- [[美国国家公园露营与营地]] — 营地预约、装备选项与熊箱习惯
+- [[Sequoia National Park]] — 同区域国家公园行程可对照
