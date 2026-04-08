@@ -12,6 +12,10 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] update | concept：露营装备（新手）增加采购清单
+
+- 更新 [[露营装备（新手）]]：原共识列表扩写为分类装备表（睡眠/安全照明/炊事/其他/Solo hiking）+ 新手策略 5 条；增加 [[优胜美地自驾路线与景点综合]] 反向链接
+
 ## [2026-04-08] synthesis | 优胜美地自驾路线与景点综合
 
 - 新建: `wiki/synthesis/yosemite-routes-and-highlights.md`（[[优胜美地自驾路线与景点综合]]）
