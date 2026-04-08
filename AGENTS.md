@@ -14,6 +14,9 @@
 ```
 raw/                  # 原始资料——不可变，人工策展
   assets/             # 全局附件（剪藏/手工下载的跨来源图片与媒体，非某一篇独占）
+  web/                # 网页长文剪藏（扁平：每篇一个子目录 <slug>/）
+    <slug>/article.md # 正文 + YAML 元数据（source_url、archived_at 等）
+    <slug>/assets/    # 可选：本文独占图片（内文插图/示意图宜下载为本地相对路径，避免热链失效）
   xiaohongshu/        # 小红书笔记归档（xhs-fetch-to-raw）；每篇子目录内另有 assets/ 存该帖图片/视频
 wiki/                 # LLM 维护的 wiki——结构化 markdown
   index.md            # 内容目录
@@ -69,7 +72,7 @@ wiki/                 # LLM 维护的 wiki——结构化 markdown
 ## 工作流
 
 ### Ingest（摄入）
-1. 读取 `raw/` 中的原始资料
+1. 读取 `raw/` 中的原始资料（常见：`raw/web/<slug>/article.md` 网页剪藏；`raw/xiaohongshu/<folder>/note.md` 小红书归档；其他扩展名见下表约定）
 2. 与用户讨论关键要点
 3. 创建/更新 wiki 页面（源摘要、实体、概念）
 4. 标记与已有内容的矛盾

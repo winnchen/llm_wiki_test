@@ -70,8 +70,10 @@ raw/xiaohongshu/{noteId}_{slug}/
 
 ## 与 Echo Wiki 衔接
 
-- 本 skill **只写 `raw/`**；写入 `wiki/sources/` 请走 **llm-wiki** 的 **Ingest** 流程。
-- 源引用示例：`> [!source] raw/xiaohongshu/<folder>/note.md`（或 `detail.json`，按 AGENTS 约定）。
+- **职责范围**：本 skill **只处理小红书笔记**的落盘；**默认**输出在 `raw/xiaohongshu/`（可用 `--raw-subdir` 或 `RAW_BASE` 改成别的**子路径**，但仍应用于笔记归档，不要把本脚本当通用网页爬虫）。
+- **不写 wiki**：`wiki/sources/` 等页面由 **llm-wiki** 的 **Ingest** 生成；本 skill 只准备 `raw/` 里的源文件。
+- **源引用示例**：`> [!source] raw/xiaohongshu/<folder>/note.md`（或 `detail.json`，按 **AGENTS.md**）。
+- **网页长文剪藏**：同一仓库里可走 `raw/web/<slug>/article.md`（见 **AGENTS.md**），但那是**另一条工作流**——**勿用本 skill / `fetch_to_raw.py` 去抓非小红书的 URL**。
 
 ## 扩展阅读
 

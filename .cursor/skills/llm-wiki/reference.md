@@ -132,8 +132,9 @@ confidence: string      # optional — low | medium | high
 
 ## Supported Source Formats
 
-| Format | Extension | Ingest Strategy |
-|--------|-----------|----------------|
+| Format | Extension / path | Ingest Strategy |
+|--------|------------------|----------------|
+| Web clip | `raw/web/<slug>/article.md` | Direct read; prefer `> [!source] raw/web/.../article.md`; cite `source_url` from YAML in prose if useful. If the source page has figures/diagrams referenced in the text, mirror them under `raw/web/<slug>/assets/` and use relative `![](assets/...)` links so the archive stays readable offline. |
 | Markdown | `.md` | Direct read |
 | Plain text | `.txt` | Direct read |
 | PDF | `.pdf` | Text extraction via pdfplumber; images extracted separately |

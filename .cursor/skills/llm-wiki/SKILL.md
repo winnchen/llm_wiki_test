@@ -19,7 +19,8 @@ analysis, and asks the right questions.
 project-root/
 ├── raw/                  # Immutable source documents (human-curated)
 │   ├── assets/           # Shared attachments (clips, cross-source media)
-│   ├── xiaohongshu/      # Optional: XHS archives (xhs-fetch-to-raw); each note folder has its own assets/
+│   ├── web/              # Web articles (flat): <slug>/article.md + optional assets/
+│   ├── xiaohongshu/      # XHS archives (xhs-fetch-to-raw); each note folder has its own assets/
 │   └── ...               # Other topic folders, papers, data files
 ├── wiki/                 # LLM-maintained markdown wiki
 │   ├── index.md          # Content catalog with links and summaries
@@ -54,6 +55,7 @@ When starting a new wiki project:
 When the user adds a source to `raw/` and asks to ingest it:
 
 1. **Detect format** and read the source:
+   - `raw/web/<slug>/article.md`: read directly; use YAML `source_url` / `title` in frontmatter when present
    - `.md`, `.txt`: read directly
    - `.pdf`: extract text with pdfplumber; note any images for separate viewing
    - `.png`, `.jpg`, `.webp`: analyze visually, generate description
