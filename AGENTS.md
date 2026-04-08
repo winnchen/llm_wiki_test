@@ -14,6 +14,7 @@
 ```
 raw/                  # 原始资料——不可变，人工策展
   assets/             # 下载的图片和媒体文件
+  xiaohongshu/        # 小红书笔记归档（由 xhs-fetch-to-raw skill 内置脚本写入）
 wiki/                 # LLM 维护的 wiki——结构化 markdown
   index.md            # 内容目录
   log.md              # 操作日志（时间线）
