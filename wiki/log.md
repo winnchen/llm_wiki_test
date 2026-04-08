@@ -12,6 +12,24 @@ tags:
 
 <!-- 快速查看: grep "^## \[" wiki/log.md | head -10 -->
 
+## [2026-04-08] update | comparison：Harness 对照页补数据与跨源共识（re-ingest 联动）
+
+- 更新 [[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]]：对照表补 boring tech / sprint 合约 / Trace Analyzer / harnessability 等细节；新增「数据对照」子表（规模、效果量化、自治时长、多代理 vs 单、模型演进策略）；分析段「重复老办法」改为引用 concept 页跨源共识模式表 + 5 条显式列举
+
+## [2026-04-08] update | synthesis：Harness 原则清单补增量（re-ingest 联动）
+
+- 更新 [[Harness engineering：定义、原则与实践清单]]：工作定义段补数据；原则 4 补 evaluator 校准 + sprint 合约；原则 7 补 Opus 4.5→4.6 实例；原则 13 补推理档位数据；新增原则 14（boring tech / harnessability）、15（harness 覆盖度度量）；实践清单新增「评测」行 + 补充 per-worktree / doc-gardening / remediation 等
+
+## [2026-04-08] re-ingest (batch) | Harness 5 篇源（新流程 v2）
+
+- 模式: batch re-ingest（先全读 5 篇 → 跨源 Delta → 统一重写）
+- 源: `raw/web/harness-engineering-martinfowler/`、`harness-engineering-openai/`、`harness-design-long-running-apps/`、`langchain-deep-agents-harness-engineering/`、`x-genai-is-real-harness-engineering-critique/`
+- Delta: 大量 new（数据、架构细节、成本数据、跨源共识模式）/ reinforcing（已有框架）/ 0 contradicting / 部分 covered
+- 重写: 5 个 source-summary（全部加 `density` 字段；按 Tech/AI 与 Opinion 分析模板深化；增加核心论点、关键数据/框架、值得注意的论断等分节）
+- 更新: [[Harness engineering（代理脚手架）]]（新增「跨源共识模式」表 + 演进理解段补数据）
+- Synthesis trigger: 已有 synthesis + comparison 页覆盖，无需新建
+- 局部 lint: 0 error / 0 new warning
+
 ## [2026-04-08] update | schema：Ingest 流程升级（v2）
 
 - 升级 `AGENTS.md`：Ingest 章节重写为单篇/批量双模式；新增领域感知分析、Delta 对照（强制）、synthesis trigger check、局部 lint 四个步骤

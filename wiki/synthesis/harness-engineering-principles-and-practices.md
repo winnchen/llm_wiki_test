@@ -26,7 +26,7 @@ tags:
 
 它与「写一段超长 system prompt」不是同一类工作：核心是把意图与约束**落进仓库**——可发现、可版本化、尽量**可机械校验**，而不是仅停留在聊天或文档孤岛里。
 
-语言上可叠用 Fowler 的 **guides（feedforward）** 与 **sensors（feedback）**，并区分 **computational**（快、确定）与 **inferential**（慢、语义、更不确定）两类控制。OpenAI 侧重 **仓库结构 + linter/结构测试 + 可观测性**；Anthropic 侧重 **多角色分工 + 真实环境评测**（如浏览器驱动）；Mitchell 侧重 **个人侧的 `AGENTS.md` 与真脚本工具**；LangChain 侧重 **固定模型下用 trace 做外环迭代**（Terminal Bench 上只改 harness 提分）。尺度不同，问题是同构的。
+语言上可叠用 Fowler 的 **guides（feedforward）** 与 **sensors（feedback）**，并区分 **computational**（快、确定）与 **inferential**（慢、语义、更不确定）两类控制。OpenAI 侧重 **仓库结构 + linter/结构测试 + 可观测性**（~100 万行 / 1500 PR / 3.5 PR/人/天）；Anthropic 侧重 **多角色分工 + 真实环境评测**（solo $9 vs full harness $200 的质量差距）；Mitchell 侧重 **个人侧的 `AGENTS.md` 与真脚本工具**；LangChain 侧重 **固定模型下用 trace 做外环迭代**（52.8% → 66.5%，只改 harness 不换模型）。尺度不同，问题是同构的。
 
 ## 原则
 
@@ -40,7 +40,7 @@ tags:
    快检靠近编辑/提交；贵检进 CI；对**持续漂移**（依赖、死代码、测试质量等）用「常驻传感器」视角规划。
 
 4. **需要时分离生成与评测**  
-   主观质量或自评放水时，独立 **evaluator**（或人、或更冷/更强的审查代理）通常优于生成者自评；评测应贴近**真实运行路径**（UI/API/数据）。
+   主观质量或自评放水时，独立 **evaluator**（或人、或更冷/更强的审查代理）通常优于生成者自评；评测应贴近**真实运行路径**（UI/API/数据）。注意：evaluator **开箱即用是差劲 QA**——Anthropic 报告其 evaluator 会发现问题后自说自话放行，需多轮**人工校准 prompt + few-shot** 才可靠。可用 **sprint 合约**（generator 与 evaluator 事前协商「done 的定义」）收紧评测标准。
 
 5. **按调节对象选 harness，避免混谈**  
    维护性、架构 **fitness**、**行为正确性** 难度与工具集不同；行为类尤其忌**过度信任**「AI 写的测试全绿」即等于可靠（多篇原文的共识风险点）。
@@ -49,7 +49,7 @@ tags:
    重复失败应回流为新的 guide/sensor 或文档规则（steering loop）；与「个人逐条补 `AGENTS.md`」同一逻辑。
 
 7. **随模型能力重估脚手架**  
-   每个组件往往编码了对**当前**模型弱点的假设；新模型发布后应做**减法实验**，拆除不再承重的复杂度。
+   每个组件往往编码了对**当前**模型弱点的假设（Anthropic 显式提出）；新模型发布后应**逐个组件 stress test**（非一刀切），拆除不再承重的复杂度。Anthropic 实例：Opus 4.5 需 sprint 结构 + context reset → Opus 4.6 可去掉两者、改用 SDK 自动 compaction。
 
 8. **「看不见 = 不存在」**  
    仅存在于聊天、脑内或非版本化 wiki 的共识，对代理等价于不存在；与给新同事 onboarding 的要求一致。
@@ -67,16 +67,23 @@ tags:
     对同一文件反复微调仍失败时，用中间件累计编辑次数并 **注入「考虑换思路」** 类提醒；这是针对**当前**模型弱点的临时护栏，模型变强后应复审是否拆除。
 
 13. **推理/算力预算与任务阶段匹配**  
-    在**强时限**场景，全程最高推理档可能导致超时；可尝试把重推理放在 **规划** 与 **验证** 两端（「三明治」启发式），中间实现用较轻设置——需用你自己的 SLA 与基准数据校准。
+    在**强时限**场景，全程最高推理档可能导致超时（LangChain 实测：全程 `xhigh` 仅 53.9%，全程 `high` 63.6%）；可尝试把重推理放在 **规划** 与 **验证** 两端（`xhigh–high–xhigh`「三明治」→ 66.5%），中间实现用较轻设置——需用你自己的 SLA 与基准数据校准。
+
+14. **偏好可推理的「boring technology」**  
+    OpenAI 经验：选 **composable、API 稳定、在训练集中充分表示**的依赖；有时自实现（如带 OpenTelemetry 的 map-with-concurrency）比引入不透明外部库更划算。Fowler 提出 **harnessability**：强类型语言、清晰模块边界、框架惯例天然提供 sensor 位——greenfield 可从 Day 1 内建，legacy 最需要却最难建。
+
+15. **度量 harness 本身的覆盖度**  
+    Fowler 追问：sensor 从不触发，是高质量还是检测不足？需要类似 **mutation testing** 对测试套件做的那样，对 harness 的 guides/sensors 做**有效性度量**——目前业界仍缺工具，但意识到这一缺口是第一步。
 
 ## 实践清单（落地）
 
 | 领域 | 可做项 |
 |------|--------|
-| 结构 | 分层/模块边界；**依赖方向**可测；横切关注点经**窄接口**进入（如 Providers 式聚合）。 |
-| 知识 | `docs/`（或等价）为真源；交叉链接、所有权、新鲜度尽量可检查；周期性 doc-gardening。 |
-| 运行时 | 隔离 dev/worktree 环境；日志、指标、**trace** 可查；必要时 UI 自动化或 API 探针；批量跑分时有 **trace 归档** 便于外环改 harness。 |
-| 流程 | PR 短命、反馈环短；高代理吞吐下，合并门闩与**风险**显式匹配。 |
+| 结构 | 分层/模块边界；**依赖方向**可测；横切关注点经**窄接口**进入（如 Providers 式聚合）；偏好 **boring tech**（可推理、API 稳定的依赖）。 |
+| 知识 | `docs/`（或等价）为真源；交叉链接、所有权、新鲜度尽量可检查；周期性 **doc-gardening agent** 扫描过时文档。 |
+| 运行时 | 隔离 **per-worktree** 环境（含日志/指标/trace，任务完成后销毁）；Chrome DevTools / Playwright MCP 等使 agent 可直接驱动 UI；批量跑分时有 **trace 归档** 便于外环改 harness。 |
+| 评测 | 独立 evaluator 需**校准**（few-shot + 人工迭代 prompt）；可用 **sprint 合约** 事前约定 done 标准；考虑 **harness 覆盖度度量**（sensor 不触发是否真因高质量）。 |
+| 流程 | PR 短命、反馈环短；高代理吞吐下，合并门闩与**风险**显式匹配；error message 写 **remediation 指令**。 |
 | 个人 | 除文档外提供**可调用脚本**（截图、过滤测试、批处理），减少「口头教代理」。 |
 
 ## 与相邻条目
@@ -84,7 +91,7 @@ tags:
 - **概念层定义与来源列表**：[[Harness engineering（代理脚手架）]]
 - **各家长文怎么落在不同场景**：[[Harness 实践对照：OpenAI、Anthropic、LangChain 与 Fowler]]
 - **个人采用路径（与团队 harness 衔接）**：[[个人 AI 采用与工作流]]
-- **一手来源（已 ingest）**：[[Web｜Martin Fowler：Harness engineering for coding agent users]]、[[Web｜OpenAI：Harness engineering（Codex）]]、[[Web｜Anthropic：Harness design for long-running apps]]、[[Web｜Mitchell Hashimoto：My AI adoption journey]]、[[Web｜LangChain：Improving Deep Agents with harness engineering]]（原则 9–13 主要据此篇压缩）
+- **一手来源（已 ingest）**：[[Web｜Martin Fowler：Harness engineering for coding agent users]]（原则 1–3、5、14–15）、[[Web｜OpenAI：Harness engineering（Codex）]]（原则 2、6、8、14）、[[Web｜Anthropic：Harness design for long-running apps]]（原则 4、7）、[[Web｜Mitchell Hashimoto：My AI adoption journey]]、[[Web｜LangChain：Improving Deep Agents with harness engineering]]（原则 9–13）
 - **对照声部**：[[X｜@GenAI_is_real：对 harness engineering 的批评与 how-to-sglang 经验]] — 指出「环境设计」早于新词；实践上与本篇原则**大量同构**，分歧主要在**是否要用 harness engineering 作为学科标签**及社区传播方式。
 
 ## 元话语提醒

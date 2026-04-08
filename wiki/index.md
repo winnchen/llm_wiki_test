@@ -28,12 +28,12 @@ tags:
 
 ### Web（AI / harness）
 
-- [[Web｜Martin Fowler：Harness engineering for coding agent users]] — guides/sensors 与三类 harness（1 raw + assets）
-- [[Web｜OpenAI：Harness engineering（Codex）]] — 仓库即系统、分层与可观测性（1 raw + assets）
-- [[Web｜Anthropic：Harness design for long-running apps]] — 生成器–评估器与三代理全栈 harness（1 raw + assets）
+- [[Web｜Martin Fowler：Harness engineering for coding agent users]] — guides/sensors、computational vs inferential、三类 harness（可维护/架构/行为）、harnessability、harness templates；density: high（1 raw + assets）
+- [[Web｜OpenAI：Harness engineering（Codex）]] — 100 万行零手写代码；仓库即系统、progressive disclosure、分层架构、doc-gardening、boring tech 偏好；density: high（1 raw + assets）
+- [[Web｜Anthropic：Harness design for long-running apps]] — GAN 式 generator–evaluator、三代理架构、sprint 合约、reset vs compaction、成本数据（solo $9 vs full $200）；density: high（1 raw + assets）
 - [[Web｜Mitchell Hashimoto：My AI adoption journey]] — 个人采用六步与 harness 工程化（1 raw）
-- [[X｜@GenAI_is_real：对 harness engineering 的批评与 how-to-sglang 经验]] — 命名/元话语批评 + how-to-sglang 多代理（1 raw + 图）
-- [[Web｜LangChain：Improving Deep Agents with harness engineering]] — Terminal Bench、trace 外环、middleware 与自证闭环（1 raw + assets）
+- [[X｜@GenAI_is_real：对 harness engineering 的批评与 how-to-sglang 经验]] — 术语疲劳批评 + how-to-sglang Expert Debating Manager 架构 + OpenClaw 追问；density: medium（1 raw + 图）
+- [[Web｜LangChain：Improving Deep Agents with harness engineering]] — 52.8→66.5% 只改 harness；Trace Analyzer、middleware、reasoning sandwich、公开 traces 数据集；density: high（1 raw + assets）
 
 ## Entities
 

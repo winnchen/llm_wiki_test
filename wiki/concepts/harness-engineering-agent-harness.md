@@ -40,8 +40,20 @@ LLM **非确定性**、上下文有限且对组织隐知识不可见；没有 ha
 - [[个人 AI 采用与工作流]] — 个人侧 `AGENTS.md`、工具化与常驻代理，与团队/仓库级 harness 互补。
 - **Context engineering** — 各文均隐含：如何把可验证、可发现的知识放进代理上下文。
 
+## 跨源共识模式
+
+重新分析 5 篇原始资料后，以下模式在 ≥ 3 篇中**独立出现**：
+
+| 模式 | 出现于 | 说明 |
+|------|--------|------|
+| **环境改进 > 换更大模型** | OpenAI、LangChain、X 帖 | 三方独立报告突破来自 harness 而非 model |
+| **巨型单文件必腐烂** | OpenAI、X 帖、Fowler（隐含） | 收敛于 progressive disclosure + 结构化 `docs/` |
+| **自评偏差 → 独立评测** | Anthropic、LangChain、Fowler（行为 harness） | 分离 generator 与 evaluator / QA |
+| **每层复杂度编码模型弱点** | Anthropic（显式）、LangChain（guardrails dissolve）、Fowler（harnessability 随模型变） | 新模型应做减法实验 |
+| **Ralph Wiggum Loop 式钩子** | OpenAI、LangChain、Anthropic（隐含） | 退出前强制自检 / 继续迭代 |
+
 ## 演进理解
 
 - **2026 前后公开叙事**从「单文件提示」转向 **可机械校验的结构**（目录、图、测试、lint）与 **多代理分工**（规划/实现/评测）。
-- 不同机构侧重点不同：**OpenAI** 偏「百万行 mono-repo 治理」；**Anthropic** 偏「长时程自主与主观质量可评分」；**Fowler** 偏「分类语言与风险坦诚（尤其行为 harness）」；**LangChain** 偏「benchmark + trace 驱动的 harness 迭代与中间件旋钮」——彼此可对照阅读，而非简单合并为一式方案。
+- 不同机构侧重点不同：**OpenAI** 偏「百万行 mono-repo 治理」（~100 万行 / 1500 PR / 3.5 PR/人/天）；**Anthropic** 偏「长时程自主与主观质量可评分」（solo $9 vs full harness $200）；**Fowler** 偏「分类语言与风险坦诚（尤其行为 harness）」；**LangChain** 偏「benchmark + trace 驱动的 harness 迭代与中间件旋钮」（52.8% → 66.5% 只改 harness）——彼此可对照阅读，而非简单合并为一式方案。
 - **命名与学科边界**：社区存在「是否应称 harness engineering」的争议（见上 X 源）；本概念页仍用该词作**索引锚点**，涵盖上述实践，不等于主张其必须成为独立学科标签。
