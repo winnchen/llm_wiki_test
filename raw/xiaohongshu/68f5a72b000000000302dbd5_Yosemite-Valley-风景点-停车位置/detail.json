@@ -1,0 +1,351 @@
+{
+  "fetched_at": "2026-04-08T17:03:27",
+  "source_urls": [
+    "http://xhslink.com/o/7vC4yVS89Jp",
+    "https://www.xiaohongshu.com/discovery/item/68f5a72b000000000302dbd5?app_platform=ios&app_version=9.24&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBdGxRpbE72Q9AFdNZ1_coEwYBjfUd-u35x4mZz22_5J4=&author_share=1&xhsshare=CopyLink&shareRedId=N0dINzZISTo6TEZFSkozS0pJTzw1ODlM&apptime=1775638349&share_id=c82fcc987f37436eb3b0c42c1c87bb83"
+  ],
+  "note_id": "68f5a72b000000000302dbd5",
+  "cli_response": {
+    "note": {
+      "noteId": "68f5a72b000000000302dbd5",
+      "title": "Yosemite Valley 风景点 停车位置",
+      "desc": "Valley里是单行线，并且不好停车，错过景点就要绕一大圈回来，堵车时太坑。所以我汇总了各风景点的比较好的停车位置（图1）：\n\t\n[一R]37°42'58.5\"N 119°39'58.1\"W\n景点：Pohono Bridge\n\t\n[二R] Bridalveil Falls Trailhead\n景点：Bridalveil Fall 图2\n\t\n[三R] Cathedral Beach Picnic Area, TUOLUMNE MEADOWS, CA 95389\n景点：Cathedral Beach 图3\n\t\n[四R]Sentinel Beach Picnic Area, Yosemite National Park, Wawona, CA 95389\n景点：Sentinel Beach\n\t\n[五R] 37°44'10.4\"N 119°35'58.0\"W (路左侧趴车位)\n景点：Swinging Bridge 图4-6\n\t\n[六R] Yosemite Valley Chapel, 9000 Southside Dr, Yosemite Valley, CA 95389\n景点：Yosemite Valley Chapel 图7\n\t\n[七R] 37°44'38.6\"N 119°35'23.8\"W （小停车场，只能从Southside Dr进，开出只能去Northside Dr方向）；或者开到 Yosemite Village Parking, Yosemite Valley, CA 95389（大停车场，之后开去northside或者southside都可）\n可以看两个景点：\nCook’s Meadow trail 图8-9\nSentinel Bridge 图10-11\n\t\n[八R]37°44'44.5\"N 119°35'49.3”W：左手边有parking的入口。\n景点：Lower Yosemite Fall 图12\n\t\n[九R] El Capitan Meadow, California 95389 (路左平趴趴车位)\n景点：El Cap Meadow 图13-14\n\t\n[一R][零R] 37°43'02.4\"N 119°39'42.9\"W (路左侧小停车场)\n景点：Valley View 图15\n\t\n#Yosemite[话题]# #Yosemite攻略[话题]# #优胜美地[话题]# #优胜美地攻略[话题]#  #YosemiteValley[话题]#",
+      "type": "normal",
+      "time": 1760929579000,
+      "ipLocation": "",
+      "user": {
+        "userId": "63a7ee68000000002702a2a2",
+        "nickname": "雪糕"
+      },
+      "interactInfo": {
+        "liked": false,
+        "likedCount": "276",
+        "collectedCount": "492",
+        "collected": false,
+        "commentCount": "22",
+        "sharedCount": ""
+      },
+      "imageList": [
+        {
+          "width": 2182,
+          "height": 1636,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/b52c093701a19a2c675b6a4bc0d4ad23/notes_pre_post/1040g3k031nrikocdlm305ot7tpk9t8l285oan4g!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/6a2fd43876abc8fc384f8ca55f13e685/notes_pre_post/1040g3k031nrikocdlm305ot7tpk9t8l285oan4g!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1920,
+          "height": 2560,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/dd73b0c506d7396c5bc3f0999b87d97b/notes_pre_post/1040g3k031nrikocdlm205ot7tpk9t8l2gaqnrvg!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/11965695c85caf63f0fe6735f0da2041/notes_pre_post/1040g3k031nrikocdlm205ot7tpk9t8l2gaqnrvg!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 2928,
+          "height": 3904,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/bb65b5f0f7bd917b283d62ba4534ba9f/notes_pre_post/1040g3k831nrikocdlm805ot7tpk9t8l278i3n58!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/e2b30b24f13b229c8b77380c40a33230/notes_pre_post/1040g3k831nrikocdlm805ot7tpk9t8l278i3n58!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 3024,
+          "height": 4032,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/e13b9dbeb8932f925ac7ce86d715a4de/notes_pre_post/1040g3k831nrikocdlm8g5ot7tpk9t8l20p7la2o!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/6197a37d78634ca857695f297d587b21/notes_pre_post/1040g3k831nrikocdlm8g5ot7tpk9t8l20p7la2o!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1920,
+          "height": 2560,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/bde75e96d5463c5da7f645a8b1c53756/notes_pre_post/1040g3k031nrikocdlm2g5ot7tpk9t8l29vk96lg!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/3755dea07f2423ef2a8c3a4c6045dcf2/notes_pre_post/1040g3k031nrikocdlm2g5ot7tpk9t8l29vk96lg!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 3616,
+          "height": 4822,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/790504a01ca4f6dc0d76513f714b8657/notes_pre_post/1040g3k831nrikocdlm905ot7tpk9t8l29046fg0!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/c1efebab5a5882dcc2e177ba35f37659/notes_pre_post/1040g3k831nrikocdlm905ot7tpk9t8l29046fg0!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 3174,
+          "height": 4233,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/e63c5fa9c8130c1c8d3bbfee9471b946/notes_pre_post/1040g3k031nrikocdlm505ot7tpk9t8l2ddih638!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/8845b83f5a0aa9f5ad1f1f40659dc99a/notes_pre_post/1040g3k031nrikocdlm505ot7tpk9t8l2ddih638!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 3024,
+          "height": 4032,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/b0c4ff57e24e2fe28da56b8248166119/notes_pre_post/1040g3k031nrikocdlm405ot7tpk9t8l26qng6t0!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/6b3d9d12621c33a3b8047af48b50c51f/notes_pre_post/1040g3k031nrikocdlm405ot7tpk9t8l26qng6t0!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 4032,
+          "height": 3024,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/e4f47bfd2947322ca5fbd903529c35a7/notes_pre_post/1040g3k031nrikocdlm4g5ot7tpk9t8l2pm7k6po!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/09de47563a78151f202b5de51c2040b1/notes_pre_post/1040g3k031nrikocdlm4g5ot7tpk9t8l2pm7k6po!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 3024,
+          "height": 4032,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/0635978836b6165074907b2a409437c2/notes_pre_post/1040g3k031nrikocdlm5g5ot7tpk9t8l2vn3nsu0!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/d29e83c0dd740d6e3da14d7f5cd06d09/notes_pre_post/1040g3k031nrikocdlm5g5ot7tpk9t8l2vn3nsu0!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 6348,
+          "height": 4760,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/517ea6588fda56e39d489514a964fa4e/notes_pre_post/1040g3k831nriopofg6805ot7tpk9t8l213fi0j8!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/303326555f9a38e9965ddecdca9b2cd5/notes_pre_post/1040g3k831nriopofg6805ot7tpk9t8l213fi0j8!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 3940,
+          "height": 5252,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/0e0474ed56981e44a19334de5f269786/notes_pre_post/1040g3k831nriopofg68g5ot7tpk9t8l2ipatie0!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/fc5873076a01c28d2affdde8aec2212f/notes_pre_post/1040g3k831nriopofg68g5ot7tpk9t8l2ipatie0!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1920,
+          "height": 2560,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/30e840414524063a0748da48222b6c9b/notes_pre_post/1040g3k831nriopofg6705ot7tpk9t8l2dnruhjg!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/5bb49779c247ca1d7d4bd8310219670b/notes_pre_post/1040g3k831nriopofg6705ot7tpk9t8l2dnruhjg!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 5864,
+          "height": 4398,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/56c59a9c12451fa617707d283ea2a67a/notes_pre_post/1040g3k831nriopofg6905ot7tpk9t8l239u23d8!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/d58210958ea8d2814bc1d8c04846ce81/notes_pre_post/1040g3k831nriopofg6905ot7tpk9t8l239u23d8!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 4032,
+          "height": 3024,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081703/e425dd7da51a391f28d7ef1cc1ca88c4/notes_pre_post/1040g3k831nriopofg67g5ot7tpk9t8l29g6ieg8!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081703/6412e3528593ae59b8dfff027d4676d3/notes_pre_post/1040g3k831nriopofg67g5ot7tpk9t8l29g6ieg8!nd_prv_wgth_webp_3"
+        }
+      ]
+    },
+    "comments": [
+      {
+        "id": "68f5a847000000003300e7d2",
+        "content": "看很多一日游的游记，觉得很多人错过了很多美好的风景。所以把我觉得好看的地方列出来了。希望能有所帮助。mirror lake 和 mist trail这两个我觉得去valley必走的trail，我之后会单独开帖介绍。",
+        "likeCount": "2",
+        "createTime": 1760929864000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "63a7ee68000000002702a2a2",
+          "nickname": "雪糕"
+        },
+        "subCommentCount": "0"
+      },
+      {
+        "id": "69c8ba8b00000000160149c0",
+        "content": "请问这个全部下来要几天呢？住哪里比较好呢",
+        "likeCount": "0",
+        "createTime": 1774762635000,
+        "ipLocation": "广东",
+        "user": {
+          "userId": "642f70e7000000001102360f",
+          "nickname": "大王"
+        },
+        "subCommentCount": "2",
+        "subComments": [
+          {
+            "id": "69c8bc030000000014008cc0",
+            "content": "我都是住露营地，vellay 里也有那种lodge可以住，但是不管哪种都要抢，要在网上蹲着疯狂的刷才可能抢到。纯看运气。",
+            "likeCount": "0",
+            "createTime": 1774763011000,
+            "ipLocation": "美国",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "6944c9b2000000003800ec0c",
+        "content": "请问一天可以玩玩嘛",
+        "likeCount": "0",
+        "createTime": 1766115763000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "5b0bb3786b58b752eea03cbe",
+          "nickname": "心碎网友"
+        },
+        "subCommentCount": "2",
+        "subComments": [
+          {
+            "id": "6944ca7f000000001600fd9f",
+            "content": "一天走马观花可以的。但是那些trail就别走了，就去valley 里面下车走几步就到景点的那几个地方就行",
+            "likeCount": "1",
+            "createTime": 1766115968000,
+            "ipLocation": "美国",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "6903852b00000000390319e9",
+        "content": "另外，请问有没有taft point的介绍？",
+        "likeCount": "0",
+        "createTime": 1761838380000,
+        "ipLocation": "上海",
+        "user": {
+          "userId": "65ad4c1a000000000d01dbac",
+          "nickname": "蔡"
+        },
+        "subCommentCount": "4",
+        "subComments": [
+          {
+            "id": "690388ab000000003300d625",
+            "content": "这个是在去glacier point 的路上，一个很推荐的trail，taft point 看日落也好看。这次去的时候glacier point road已经封路了，就没有过去了。我之后会陆续的补充上yosemite glacier point 和 tioga road这两条路线怎么玩，和介绍它们各自的trail和景点的[微笑R]",
+            "likeCount": "0",
+            "createTime": 1761839275000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "68f5a8740000000037010150",
+        "content": "没去成亏了十个亿",
+        "likeCount": "1",
+        "createTime": 1760929909000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "62b1f934000000001b027324",
+          "nickname": "wzc"
+        },
+        "subCommentCount": "2",
+        "subComments": [
+          {
+            "id": "68f5a8bf0000000037011302",
+            "content": "下次还有机会。明年春天，瀑布最好看的时候，咱们一起去。",
+            "likeCount": "0",
+            "createTime": 1760929983000,
+            "ipLocation": "美国",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "690384a8000000003901c26b",
+        "content": "太有帮助了。谢谢",
+        "likeCount": "0",
+        "createTime": 1761838249000,
+        "ipLocation": "上海",
+        "user": {
+          "userId": "65ad4c1a000000000d01dbac",
+          "nickname": "蔡"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "690388f6000000003300717e",
+            "content": "我也很开心呢，觉得自己细心做的事情得到了表扬[黄金薯R]",
+            "likeCount": "0",
+            "createTime": 1761839350000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "69504df20000000016027660",
+        "content": "沿着您标的数字走是绕了一圈的吗",
+        "likeCount": "0",
+        "createTime": 1766870514000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "548485ccd6e4a9281953f73e",
+          "nickname": "momo"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "6950553c000000001601ef22",
+            "content": "嗯嗯，是",
+            "likeCount": "1",
+            "createTime": 1766872381000,
+            "ipLocation": "美国",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "691d43830000000038004fa9",
+        "content": "我打算就这几天去。谢谢楼主的分享",
+        "likeCount": "0",
+        "createTime": 1763525507000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "5d1780530000000010005d32",
+          "nickname": "弯弯星"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "691d442f000000001702deeb",
+            "content": "不客气[微笑R] 我看周四那里好像要下雨。注意路况哦。",
+            "likeCount": "1",
+            "createTime": 1763525679000,
+            "ipLocation": "美国",
+            "user": {
+              "userId": "63a7ee68000000002702a2a2",
+              "nickname": "雪糕"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "6981af610000000030025975",
+        "content": "很詳細很有幫助 謝謝!!",
+        "likeCount": "1",
+        "createTime": 1770106722000,
+        "ipLocation": "中国香港",
+        "user": {
+          "userId": "5416e8e6b4c4d639cb9e1050",
+          "nickname": "syl"
+        },
+        "subCommentCount": "0"
+      }
+    ]
+  },
+  "local_assets": {
+    "images": [
+      "assets/img_01.webp",
+      "assets/img_02.webp",
+      "assets/img_03.webp",
+      "assets/img_04.webp",
+      "assets/img_05.webp",
+      "assets/img_06.webp",
+      "assets/img_07.webp",
+      "assets/img_08.webp",
+      "assets/img_09.webp",
+      "assets/img_10.webp",
+      "assets/img_11.webp",
+      "assets/img_12.webp",
+      "assets/img_13.webp",
+      "assets/img_14.webp",
+      "assets/img_15.webp"
+    ],
+    "video": null
+  },
+  "video_candidate_urls": []
+}

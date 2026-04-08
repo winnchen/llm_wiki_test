@@ -1,0 +1,426 @@
+{
+  "fetched_at": "2026-04-08T17:13:20",
+  "source_urls": [
+    "http://xhslink.com/o/2Y9KUc10mxt",
+    "https://www.xiaohongshu.com/discovery/item/6792608c000000001800af37?app_platform=ios&app_version=9.24&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBTU3MYXCNqKOdiO2ZCGerpXNNySUEbiLVJGrHKJgvOmw=&author_share=1&xhsshare=CopyLink&shareRedId=N0dINzZISTo6TEZFSkozS0pJTzw1ODlM&apptime=1775638475&share_id=0b262c933be74cf9918920cac60dbe13"
+  ],
+  "note_id": "6792608c000000001800af37",
+  "cli_response": {
+    "note": {
+      "noteId": "6792608c000000001800af37",
+      "title": "美国国家公园露营地预定特别篇",
+      "desc": "上篇帖子有提到大多数国家公园露营地预定是在recreation.gov官网进行预定，优胜美地即是如此，但也不乏特例，如黄石和卡特迈公园Katmai NP\n无论如何特例，在国家公园官网nps.gov都会提供相应链接，基本上预定热门公园的热门露营地就像国内大医院抢号一样，确定了放号日期到点去抢\n本篇以黄石以及优胜美地为例介绍露营地信息获取及预定路径\n图2：在国家公园官网黄石公园页面内找到想住的露营点（如何查找国家公园在我上篇帖子中）\n图3：在露营点页面下滑找到预定（RESERVATIONS）\n图4：点击后会跳出提示，将跳转出国家公园服务网站并在几秒内自动跳转黄石木屋酒店及露营地的预定网站\n图5：在框中选择露营点，时间及人数\n图6：下滑查看需要选择的营地种类，通常会有露营车（RV）和帐篷（Tent）。确定后点击查看日历（VIEW CALENDAR）\n图7：选择露营日期后保存（SAVE）\n图8：选择露营相关信息，其中需要注意设备类型Equipment Types选项中会有帐篷Tent和车辆Vehicle，这里的车辆是特指的露营车，包括RV和Van。如果只是开车进去搭帐篷选择帐篷就好了\n图9：下一步是推荐额外活动，如果不想参加直接点击右上角的跳过SKIP ACTIVITIES\n图10：最后是填写个人信息和付款信息环节，之前可以在网站注册用户。需要注意的是，预定露营地都会有退费截止期限，可在确认邮件中找到\n图12：接下来以优胜美地为例看一下预定露营地的流程，在国家公园主页（www.nps.gov）找到优胜美地国家公园，并找到想住的露营点。\n图13：如果露营点已经进入可预订时间段，直接上Recreation.gov预定即可，通常露营地会根据营地情况（道路，积雪，树木倒塌）来确定开放时间，这里就提示了所选择的露营地开放预约的时间，按照这个时间卡点预约就好了\n图14：如果个别公园页面无法找到露营地预约开放时间，可以在对应国家公园页面下方点击联系我们Contact us\n图16：联系方式有多种，我选择的邮件\n图17： 2024年选择野外徒步露营时无法下单徒步露营许可，并且网站也没有明确的开放时间，于是选择了邮件询问，可以看到询问邮件是4月17日发出的，当天就得到了回复，并提供了我需要的信息\n﻿#美国国家公园[话题]#﻿ ﻿#旅行摄影大片[话题]#﻿ ﻿#黄石国家公园[话题]#﻿ ﻿#美国[话题]#﻿ ﻿#美国旅行[话题]#﻿ ﻿#新年旅行第一站[话题]#﻿",
+      "type": "normal",
+      "time": 1737646220000,
+      "ipLocation": "",
+      "user": {
+        "userId": "592dffbd82ec3913be3a3738",
+        "nickname": "Andy的旅行攻略"
+      },
+      "interactInfo": {
+        "liked": false,
+        "likedCount": "124",
+        "collectedCount": "173",
+        "collected": false,
+        "commentCount": "50",
+        "sharedCount": ""
+      },
+      "imageList": [
+        {
+          "width": 1279,
+          "height": 1706,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/7995e6c18b56d115a0ccd685097e686c/1040g2sg31d0ks95r0s7049hrdpvrqdpor1l7pr8!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/25ab11aeefd78711cd2fe27df3ba1ec4/1040g2sg31d0ks95r0s7049hrdpvrqdpor1l7pr8!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1256,
+          "height": 1089,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/99c89b69c8d1de25737de885a6bee503/spectrum/1040g34o31d0k7atlg87049hrdpvrqdpoq3obslg!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/e4672d96fb630589c58e5f46d2a1f541/spectrum/1040g34o31d0k7atlg87049hrdpvrqdpoq3obslg!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1164,
+          "height": 835,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/ba0295906641b74b5bd26cbb84906159/spectrum/1040g34o31d0k7atlg87g49hrdpvrqdpoeq6iap0!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/ed9082d821a676428db86c212db8ebb6/spectrum/1040g34o31d0k7atlg87g49hrdpvrqdpoeq6iap0!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 512,
+          "height": 495,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/ad198710b34a2a30d60c7ae07818f38f/spectrum/1040g34o31d0k7atlg88049hrdpvrqdpotcc3blg!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/57072a72704de2ca6a7538d44be2b32f/spectrum/1040g34o31d0k7atlg88049hrdpvrqdpotcc3blg!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1267,
+          "height": 1252,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/07cc1144ef305d647ef0e1d70e010233/spectrum/1040g34o31d0k7atlg88g49hrdpvrqdpoc2ap278!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/e467925f1cb1a2477860104e0cb712ad/spectrum/1040g34o31d0k7atlg88g49hrdpvrqdpoc2ap278!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1264,
+          "height": 1285,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/147a69427ccf29494eebfed920b4867a/spectrum/1040g34o31d0k7atlg89049hrdpvrqdpoltvmf28!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/310d67c8793da70b2741e01936edba43/spectrum/1040g34o31d0k7atlg89049hrdpvrqdpoltvmf28!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 960,
+          "height": 1281,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/7a976278b4dbe74f145837327347b8f2/spectrum/1040g34o31d0k7atlg89g49hrdpvrqdposj1u7co!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/a12f989a6152c9c9208a85e18f7086b6/spectrum/1040g34o31d0k7atlg89g49hrdpvrqdposj1u7co!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 957,
+          "height": 1277,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/712bc14ae15d0864cddc017a3805765f/spectrum/1040g34o31d0k7atlg8a049hrdpvrqdpoui8r67o!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/4a9c6895042d091c24824a42172a5815/spectrum/1040g34o31d0k7atlg8a049hrdpvrqdpoui8r67o!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1244,
+          "height": 1246,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/3b874d8fc612b76828adbee198f69c24/spectrum/1040g34o31d0k7atlg8ag49hrdpvrqdporv1seno!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/1a19336600aad301ab82bebe32467698/spectrum/1040g34o31d0k7atlg8ag49hrdpvrqdporv1seno!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1236,
+          "height": 1268,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/fb21d48e1b364c55be0dd1afa2e22ea3/spectrum/1040g34o31d0k7atlg8b049hrdpvrqdpoa2iosig!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/27d754c16dc01b506a0c0b86a1761b3e/spectrum/1040g34o31d0k7atlg8b049hrdpvrqdpoa2iosig!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1280,
+          "height": 959,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/175e3c7753fd6c51c9eed82e7a66f415/spectrum/1040g34o31d0k7atlg8bg49hrdpvrqdpog8mufig!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/750f93c7c0a3bfad9983aaf1e2ca57fc/spectrum/1040g34o31d0k7atlg8bg49hrdpvrqdpog8mufig!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 862,
+          "height": 1094,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/635ea3e0edd9d06293ae66b3b65449a3/spectrum/1040g34o31d0k7atlg8c049hrdpvrqdpo8rko5s8!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/f8deb731e4a7aeb8961e00019b358248/spectrum/1040g34o31d0k7atlg8c049hrdpvrqdpo8rko5s8!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1173,
+          "height": 786,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/9ecf3bbeb5e95f24d8651e72d1c9b724/spectrum/1040g34o31d0k7atlg8cg49hrdpvrqdpol4jdc3g!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/0d11002d0b57647a0117b9900f87951f/spectrum/1040g34o31d0k7atlg8cg49hrdpvrqdpol4jdc3g!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1157,
+          "height": 622,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/4c9410919e690cdeef832872563d9c01/spectrum/1040g34o31d0k7atlg8d049hrdpvrqdpo4dn0iio!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/33bfd0630c2bd97e50b98fd6375f9564/spectrum/1040g34o31d0k7atlg8d049hrdpvrqdpo4dn0iio!nd_prv_wgth_webp_3"
+        },
+        {
+          "width": 1247,
+          "height": 1291,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/67fe249cfd02d79e1f7211a872e4c6d9/spectrum/1040g34o31d0k7atlg8dg49hrdpvrqdpo1ls0u20!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/8ccec9323913b3403c0868b4ef6bfe90/spectrum/1040g34o31d0k7atlg8dg49hrdpvrqdpo1ls0u20!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1223,
+          "height": 1256,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/2aafcf8990283e58d3224c048aef1f0a/spectrum/1040g0k031d0k7b2bg80049hrdpvrqdpol7bd9m0!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/468b4b2991810142875c7f1001909cdb/spectrum/1040g0k031d0k7b2bg80049hrdpvrqdpol7bd9m0!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 956,
+          "height": 1275,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/331ae2ae73ce0851d4101b4e25eec666/spectrum/1040g0k031d0k7b2bg80g49hrdpvrqdpo8tt9eg8!nd_dft_wlteh_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/293f612fb325b41fb8d83e7d5b76d9c7/spectrum/1040g0k031d0k7b2bg80g49hrdpvrqdpo8tt9eg8!nd_prv_wlteh_webp_3"
+        },
+        {
+          "width": 1070,
+          "height": 1042,
+          "urlDefault": "http://sns-webpic-qc.xhscdn.com/202604081708/599d16e7567af9eea04019d154d7a78e/spectrum/1040g0k031d0k7b2bg81049hrdpvrqdpo3qhrrmo!nd_dft_wgth_webp_3",
+          "urlPre": "http://sns-webpic-qc.xhscdn.com/202604081708/cc7de433880e554edddb52d6020dc6b9/spectrum/1040g0k031d0k7b2bg81049hrdpvrqdpo3qhrrmo!nd_prv_wgth_webp_3"
+        }
+      ]
+    },
+    "comments": [
+      {
+        "id": "680076a2000000001e017494",
+        "content": "请问一下你是在哪里租帐篷？",
+        "likeCount": "0",
+        "createTime": 1744860834000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "5f8862da000000000100a700",
+          "nickname": "ling"
+        },
+        "subCommentCount": "10",
+        "subComments": [
+          {
+            "id": "68007769000000001e03b362",
+            "content": "我是自己在REI商店买的帐篷[斜眼R]",
+            "likeCount": "0",
+            "createTime": 1744861034000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "68393658000000000903b198",
+        "content": "请问如果要有两个帐篷露营，选营地的时候选成了只能一个8*8的营地，这样还能搭两个帐篷吗？",
+        "likeCount": "0",
+        "createTime": 1748579928000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "612ef7e50000000002022e8b",
+          "nickname": "佛州养老青年"
+        },
+        "subCommentCount": "7",
+        "subComments": [
+          {
+            "id": "68393d60000000001c02e60d",
+            "content": "我觉得先看一下预定网站是否对同一露营地帐篷搭建数量有要求，我印象没见过有要求，其次，看一下你帐篷的size吧，双人帐的话两个也许能行，估计会比较紧张，因为一般露营地还有篝火坑和桌椅这些固定设施。建议还是定两个露营地。",
+            "likeCount": "1",
+            "createTime": 1748581728000,
+            "ipLocation": "云南",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "681d67d5000000000d016e11",
+        "content": "黄石公园露营是需要买帐篷吗？没有可以租的吗",
+        "likeCount": "0",
+        "createTime": 1746757589000,
+        "ipLocation": "北京",
+        "user": {
+          "userId": "5c5525cc000000001103beaa",
+          "nickname": "Nancy"
+        },
+        "subCommentCount": "7",
+        "subComments": [
+          {
+            "id": "681d79300000000004015ab1",
+            "content": "貌似没见过租帐篷的，建议买好了去",
+            "likeCount": "0",
+            "createTime": 1746762032000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "69201d3c0000000016025428",
+        "content": "请问我们只是开车进去搭帐篷，看到canyon campground营地tent已经订完了，我们可以选择RV plus tent这种类型的site吗",
+        "likeCount": "0",
+        "createTime": 1763712317000,
+        "ipLocation": "上海",
+        "user": {
+          "userId": "5b642965e2344f000100379a",
+          "nickname": "妮可拉基芭島"
+        },
+        "subCommentCount": "3",
+        "subComments": [
+          {
+            "id": "692079cd00000000160210d8",
+            "content": "首先我没租过RV所以没入住过rv plus tent的site, 但我刚又去网站看了一下，网站页面和附加信息都没有要求必须开RV，只是说不能超过限定人数，以及不能超过特定车长。按个人经验这种通常是没问题的。如果实在担心，可以联系公园管理员[斜眼R]",
+            "likeCount": "0",
+            "createTime": 1763736016000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "67b563bf000000001b03f3d0",
+        "content": "谢谢讲得这么详细",
+        "likeCount": "1",
+        "createTime": 1739940799000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "66d3f0fb000000001d031c37",
+          "nickname": "Wei"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "67b563d800000000160344db",
+            "content": "快乐分享[红色心形R]",
+            "likeCount": "0",
+            "createTime": 1739940824000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "67926228000000000b009e81",
+        "content": "一键三连了[加油R]",
+        "likeCount": "1",
+        "createTime": 1737646633000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "5b471637f7e8b94fee7924c2",
+          "nickname": "故事"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "67926284000000001a03abc0",
+            "content": "感谢感谢[红色心形R][红色心形R]",
+            "likeCount": "0",
+            "createTime": 1737646725000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "687fee95000000001100d081",
+        "content": "请问一般需要提前多久去预约呢",
+        "likeCount": "0",
+        "createTime": 1753214613000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "62b8988b000000001b02aba1",
+          "nickname": "Fang Schan"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "688037a8000000000400ab65",
+            "content": "要看公园，特别火的像黄石这种，高峰期至少提前一个月，越早越好。",
+            "likeCount": "1",
+            "createTime": 1753233321000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "68549260000000000901777b",
+        "content": "有app可以预定营地吗？",
+        "likeCount": "0",
+        "createTime": 1750372961000,
+        "ipLocation": "美国",
+        "user": {
+          "userId": "64e7621c0000000001005efa",
+          "nickname": "阿凯迪亚第一狠心"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "6854b455000000002000ce0a",
+            "content": "貌似都是网页的[笑哭R]",
+            "likeCount": "0",
+            "createTime": 1750381654000,
+            "ipLocation": "北京",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "684a3fa2000000001c030ae7",
+        "content": "想问下博主recreation.gov和nps.gov这两个网站有什么区别呀[笑哭R]",
+        "likeCount": "0",
+        "createTime": 1749696419000,
+        "ipLocation": "广东",
+        "user": {
+          "userId": "5cb898a90000000016035ff4",
+          "nickname": "香蕉马头🐴"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "684a4b7c000000002000d611",
+            "content": "nps主要是介绍所有国家公园的具体情况，rec是针对一些露营点和permit预约的网站，一般来说，你在nps的露营地信息和permit信息页面会有rec的链接，点了就直接跳转到预约的网站了",
+            "likeCount": "0",
+            "createTime": 1749699453000,
+            "ipLocation": "云南",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      },
+      {
+        "id": "68353aa1000000000b01fc00",
+        "content": "营地会有熊出没吗",
+        "likeCount": "0",
+        "createTime": 1748318882000,
+        "ipLocation": "广东",
+        "user": {
+          "userId": "60135f460000000001008d20",
+          "nickname": "普吉小雷达"
+        },
+        "subCommentCount": "1",
+        "subComments": [
+          {
+            "id": "68354828000000001c0355cc",
+            "content": "看运气，人多的营地一般大家生火做饭的比较多，熊就会比较多。但也不用太担心，基本是熊只图吃的。人不在和晚上睡觉的时候把有气味的东西放进防熊箱里面就好了。别留在车里。",
+            "likeCount": "0",
+            "createTime": 1748322344000,
+            "ipLocation": "云南",
+            "user": {
+              "userId": "592dffbd82ec3913be3a3738",
+              "nickname": "Andy的旅行攻略"
+            },
+            "subCommentCount": ""
+          }
+        ]
+      }
+    ]
+  },
+  "local_assets": {
+    "images": [
+      "assets/img_01.webp",
+      "assets/img_02.webp",
+      "assets/img_03.webp",
+      "assets/img_04.webp",
+      "assets/img_05.webp",
+      "assets/img_06.webp",
+      "assets/img_07.webp",
+      "assets/img_08.webp",
+      "assets/img_09.webp",
+      "assets/img_10.webp",
+      "assets/img_11.webp",
+      "assets/img_12.webp",
+      "assets/img_13.webp",
+      "assets/img_14.webp",
+      "assets/img_15.webp",
+      "assets/img_16.webp",
+      "assets/img_17.webp",
+      "assets/img_18.webp"
+    ],
+    "video": null
+  },
+  "video_candidate_urls": []
+}
